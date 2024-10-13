@@ -1,0 +1,138 @@
+/* General styles for small screens like phones */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    .navbar .h5 {
+        font-size: 1rem;
+    }
+
+    /* Hero Section */
+    h1.display-4 {
+        font-size: 2rem;
+    }
+
+    h6.display-6 {
+        font-size: 1.5rem;
+    }
+
+    #social a {
+        margin: 0 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    /* Profile image adjustment */
+    .col-lg-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Skills Section */
+    .fa-5x {
+        font-size: 3rem;
+    }
+
+    .col-lg-2 h6 {
+        font-size: 1rem;
+    }
+
+    /* About Section */
+    p.display-6 {
+        font-size: 1.2rem;
+    }
+
+    /* Carousel images */
+    .carousel-inner img {
+        height: auto;
+    }
+
+    /* Adjust project section layout */
+    #project1 .col-4,
+    #project1 .col-8 {
+        width: 100%;
+    }
+
+    #project1 .col-8 {
+        margin-top: 2rem;
+    }
+
+    /* Contact Section */
+    .cont .col {
+        width: 100%;
+    }
+
+    form .form-control {
+        width: 100%;
+    }
+}
+
+/* Media Query for extra small screens */
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 30px;
+    }
+
+    h1.display-4 {
+        font-size: 1.5rem;
+    }
+
+    h6.display-6 {
+        font-size: 1rem;
+    }
+
+    /* Reduce font size for better readability */
+    .poppins-light {
+        font-size: 0.9rem;
+    }
+
+    .carousel-inner img {
+        height: auto;
+    }
+
+    #project1 .col-4,
+    #project1 .col-8 {
+        width: 100%;
+    }
+
+    .cont {
+        padding: 1rem;
+    }
+}
+/* Hero Section Flexbox Adjustments */
+@media (max-width: 768px) {
+    .container-fluid.text-center.text-lg-start {
+        text-align: center !important;
+    }
+
+    .container-fluid.text-center.text-lg-start .row {
+        flex-direction: column;
+    }
+
+    .container-fluid .col-12.col-lg-6 {
+        margin-bottom: 2rem;
+    }
+
+    .cont .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    h1.display-4 {
+        font-size: 2rem;
+    }
+
+    h6.display-6 {
+        font-size: 1.5rem;
+    }
+
+    p.display-6 {
+        font-size: 1.2rem;
+    }
+
+    .poppins-light {
+        font-size: 1rem;
+    }
+}
